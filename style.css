@@ -4,9 +4,11 @@ body {
     font-family: Manrope;
     background-color: #000;
     color: #f1f1f1;
+    transition: 0.2s;
 }
 button {
     padding: 20px;
     font-size: 15pt;
     font-family: Manrope;
+    transition: 0.2s;
 }
