@@ -5,13 +5,13 @@ function calculator() {
     const operator = prompt("Select operator. Your choices are '+','-','/', and '*'");
 
     if (operator === "+") { 
-        display.innerHTML = "The answer is: " + parseInt(firstnum) + parseInt(secondnum) + ".";
+        display.innerHTML = parseInt(firstnum) + parseInt(secondnum);
     } else if (operator === '-') {
-        display.innerHTML = "The answer is: " + parseInt(firstnum) - parseInt(secondnum) + ".";
+        display.innerHTML = parseInt(firstnum) - parseInt(secondnum);
     } else if (operator === '/') {
-        display.innerHTML = "The answer is: " + parseInt(firstnum) / parseInt(secondnum) + ".";
+        display.innerHTML = parseInt(firstnum) / parseInt(secondnum);
     } else if (operator === '*') {
-        display.innerHTML = "The answer is: " + parseInt(firstnum) * parseInt(secondnum) + ".";
+        display.innerHTML = parseInt(firstnum) * parseInt(secondnum);
     } else {
         display.innerHTML = "Input missing or wrong input."
     }
